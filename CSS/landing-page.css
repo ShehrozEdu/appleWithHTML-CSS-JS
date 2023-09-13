@@ -1,0 +1,22 @@
+.navbar-font{
+    font-size: 12px !important;
+}
+.pointer-cursor{
+    cursor: pointer;
+}
+
+.bg-nav{
+    background-color: rgba(22, 22, 23, .8) !important;
+    z-index: 100 !important;
+}
+.bg-custom-color{
+    background-color: #000;
+    z-index: -100 !important;
+}
+.apple-img-main{
+    width: 595px;
+    height: 595px;
+}
+.margin-img-container{
+    margin-top: 3.8em;
+}
