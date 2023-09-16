@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+/* SF-Pro-Text-Medium */
+
+* {
+  font-family:  "-apple-system", "BlinkMacSystemFont" sans-serif;
+}
 .navbar-font {
   font-size: 12px !important;
 }
@@ -43,7 +48,9 @@
   background-repeat: no-repeat;
   background-image: url("/ASSETS/iPhone.jpg"); */
 }
-
+.section2-heading1 {
+  font-size: 57px !important;
+}
 .section2-heading3 {
   color: grey;
 }
@@ -80,7 +87,6 @@
   background-image: url("/ASSETS/iPhone.jpg"); */
 }
 
-
 .section3-heading3 {
   color: grey;
 }
@@ -101,8 +107,6 @@
   width: 99vw;
 }
 
-
-
 .section-padding {
   padding: 5em;
 }
@@ -115,7 +119,8 @@
   color: black;
   font-weight: bold;
   text-align: center;
-  background: url("https://www.apple.com/in/home/heroes/apple-watch-series-9/images/hero_apple_watch_series_9_order__d0fi9mb84dci_largetall_2x.jpg") no-repeat;
+  background: url("https://www.apple.com/in/home/heroes/apple-watch-series-9/images/hero_apple_watch_series_9_order__d0fi9mb84dci_largetall_2x.jpg")
+    no-repeat;
   background-size: 180%;
   height: 90vh;
   background-position: center;
@@ -134,15 +139,14 @@
   list-style: none;
   font-size: 3em !important;
 }
-.section4-heading1 i{
- 
+.section4-heading1 i {
   font-size: 1em;
 }
 
 .section4 ul {
   text-align: center;
 }
-.series-spacing-letter{
+.series-spacing-letter {
   letter-spacing: 4px;
 }
 /* Section 4 ends */
