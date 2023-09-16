@@ -1,3 +1,132 @@
+/* SF-Pro-Text-Medium */
+@font-face {
+    font-family: 'Medium';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-Medium.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-MediumItalic */
+  @font-face {
+    font-family: 'MediumItalic';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-MediumItalic.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-Regular */
+  @font-face {
+    font-family: 'Regular';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-Regular.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-RegularItalic */
+  @font-face {
+    font-family: 'RegularItalic';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-RegularItalic.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-Semibold */
+  @font-face {
+    font-family: 'Semibold';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-Semibold.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-SemiboldItalic */
+  @font-face {
+    font-family: 'SemiboldItalic';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-SemiboldItalic.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-Thin */
+  @font-face {
+    font-family: 'Thin';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-Thin.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-ThinItalic */
+  @font-face {
+    font-family: 'ThinItalic';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-ThinItalic.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-Ultralight */
+  @font-face {
+    font-family: 'Ultralight';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-Ultralight.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-UltralightItalic */
+  @font-face {
+    font-family: 'UltralightItalic';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-UltralightItalic.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-Black */
+  @font-face {
+    font-family: 'Black';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-Black.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-BlackItalic */
+  @font-face {
+    font-family: 'BlackItalic';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-BlackItalic.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-Bold */
+  @font-face {
+    font-family: 'Bold';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-Bold.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-BoldItalic */
+  @font-face {
+    font-family: 'BoldItalic';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-BoldItalic.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-Heavy */
+  @font-face {
+    font-family: 'Heavy';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-Heavy.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-HeavyItalic */
+  @font-face {
+    font-family: 'HeavyItalic';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-HeavyItalic.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-Light */
+  @font-face {
+    font-family: 'Light';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-Light.otf') format('opentype');
+    
+  }
+  
+  /* SF-Pro-Text-LightItalic */
+  @font-face {
+    font-family: 'LightItalic';
+    src: url('/public/assets/fonts/SF-Pro-Text/SF-Pro-Text-LightItalic.otf') format('opentype');
+    
+  }
+  *{
+    font-family: 'Regular';
+
+  }
 .navbar-font{
     font-size: 12px !important;
 }
@@ -19,4 +148,10 @@
 }
 .margin-img-container{
     margin-top: 3.8em;
+}
+
+.nav-text{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
 }
