@@ -80,6 +80,7 @@
   background-image: url("/ASSETS/iPhone.jpg"); */
 }
 
+
 .section3-heading3 {
   color: grey;
 }
@@ -92,13 +93,56 @@
 .section3 ul {
   text-align: center;
 }
+.section4-heading3 {
+  color: grey;
+}
 
 .section3-image1 {
   width: 99vw;
 }
+
+
 
 .section-padding {
   padding: 5em;
 }
 
 /* Section 3 ends */
+
+/* Section 4 */
+#section4 {
+  /* background-color: black; */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background: url("https://www.apple.com/in/home/heroes/apple-watch-series-9/images/hero_apple_watch_series_9_order__d0fi9mb84dci_largetall_2x.jpg") no-repeat;
+  background-size: 180%;
+  height: 90vh;
+  background-position: center;
+  /* width: 1508px;
+  height: 624px;
+  background-size: 1508px 624px;
+  background-repeat: no-repeat;
+  background-image: url("/ASSETS/iPhone.jpg"); */
+}
+.section4-heading3 {
+  text-decoration: none;
+  list-style: none;
+}
+.section4-heading1 {
+  text-decoration: none;
+  list-style: none;
+  font-size: 3em !important;
+}
+.section4-heading1 i{
+ 
+  font-size: 1em;
+}
+
+.section4 ul {
+  text-align: center;
+}
+.series-spacing-letter{
+  letter-spacing: 4px;
+}
+/* Section 4 ends */
