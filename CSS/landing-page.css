@@ -1,22 +1,104 @@
-.navbar-font{
-    font-size: 12px !important;
-}
-.pointer-cursor{
-    cursor: pointer;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.bg-nav{
-    background-color: rgba(22, 22, 23, .8) !important;
-    z-index: 100 !important;
+.navbar-font {
+  font-size: 12px !important;
 }
-.bg-custom-color{
-    background-color: #000;
-    z-index: -100 !important;
+.pointer-cursor {
+  cursor: pointer;
 }
-.apple-img-main{
-    width: 595px;
-    height: 595px;
+
+.bg-nav {
+  background-color: rgba(22, 22, 23, 0.8) !important;
+  z-index: 100 !important;
 }
-.margin-img-container{
-    margin-top: 3.8em;
+.bg-custom-color {
+  background-color: #000;
+  z-index: -100 !important;
 }
+.apple-img-main {
+  width: 595px;
+  height: 595px;
+}
+.margin-img-container {
+  margin-top: 3.8em;
+}
+
+/* Section 2 starts */
+
+#section2 {
+  /* background-color: black; */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background: url("/ASSETS/iPhone.jpg") no-repeat;
+  background-size: 200%;
+  height: 90vh;
+  background-position: center;
+  /* width: 1508px;
+  height: 624px;
+  background-size: 1508px 624px;
+  background-repeat: no-repeat;
+  background-image: url("/ASSETS/iPhone.jpg"); */
+}
+
+.section2-heading3 {
+  color: grey;
+}
+
+.section2-heading3 {
+  text-decoration: none;
+  list-style: none;
+}
+
+.section2 ul {
+  text-align: center;
+}
+
+.section2-image1 {
+  width: 99vw;
+}
+/* Section 2 ends */
+
+/* Section 3 starts */
+
+#section3 {
+  /* background-color: black; */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background: url("/ASSETS/section3-img1.jpg") no-repeat;
+  background-size: 180%;
+  height: 90vh;
+  background-position: center;
+  /* width: 1508px;
+  height: 624px;
+  background-size: 1508px 624px;
+  background-repeat: no-repeat;
+  background-image: url("/ASSETS/iPhone.jpg"); */
+}
+
+.section3-heading3 {
+  color: grey;
+}
+
+.section3-heading3 {
+  text-decoration: none;
+  list-style: none;
+}
+
+.section3 ul {
+  text-align: center;
+}
+
+.section3-image1 {
+  width: 99vw;
+}
+
+.section-padding {
+  padding: 5em;
+}
+
+/* Section 3 ends */
