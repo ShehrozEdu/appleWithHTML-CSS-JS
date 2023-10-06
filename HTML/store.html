@@ -232,6 +232,7 @@
           </div>
         </div>
       </div>
+        <!-- -------Header Section------ -->
       <!-- -------NEW PROD Section------ -->
       <div class="new-products-container p-3">
         <div>
@@ -346,7 +347,54 @@
         </div>
       </div>
       </div>
-      <!-- -------Header Section------ -->
+        <!-- -------NEW PROD Section------ -->
+
+          <!-- -------Help carousel section------ -->
+          <div class="new-products-container p-3">
+            <div>
+    
+           <div class="mar-25">
+            <h3 class="text-start p-lg-3">
+              Help is here.
+              <span class="text-muted"> Whenever and however you need it.</span>
+            </h3></div>
+            <div class="carousel-help mar-25">
+              <div class="help-card-container">
+                <div class="help-card help-card-1">
+                  <p class="card-order-now text-white">
+                    PRE-ORDER NOW <br />
+                    IPHONE 15 PRO
+                  </p>
+                  <h5 class="heading-card text-white">Titanium</h5>
+                  <h6 class="price-new-prod text-white">From ₹134900.00‡</h6>
+                </div>
+              </div>
+              <div class="help-card-container">
+                <div class="help-card help-card-2">
+                  <p class="card-order-now text-white">
+                    PRE-ORDER NOW <br />
+                    IPHONE 15 PRO
+                  </p>
+                  <h5 class="heading-card text-white">Titanium</h5>
+                  <h6 class="price-new-prod text-white">From ₹134900.00‡</h6>
+                </div>
+              </div>
+              <div class="help-card-container">
+                <div class="help-card help-card-3">
+                  <p class="card-order-now text-white">
+                    PRE-ORDER NOW <br />
+                    IPHONE 15 PRO
+                  </p>
+                  <h5 class="heading-card text-white">Titanium</h5>
+                  <h6 class="price-new-prod text-white">From ₹134900.00‡</h6>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+          </div>
+          <!-- -------Help carousel section ENDS------ -->
+    
     </section>
 
     <!-- -----BOOTSTRAP------ -->
@@ -389,6 +437,31 @@
   <script>
     $(document).ready(function () {
       $(".carousel-new-prod").slick({
+        slidesToShow: 3, // Number of slides to show at once
+        infinite: false,
+        slidesToScroll: 1, // Number of slides to scroll at a time
+        autoplay: false, // Enable auto-play
+        autoplaySpeed: 2000, // Set auto-play speed in milliseconds
+        arrows: true, // Show navigation arrows
+        dots: false, // Hide navigation dots
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    });
+    $(document).ready(function () {
+      $(".carousel-help").slick({
         slidesToShow: 3, // Number of slides to show at once
         infinite: false,
         slidesToScroll: 1, // Number of slides to scroll at a time

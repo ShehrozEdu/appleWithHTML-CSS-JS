@@ -89,3 +89,26 @@ p{
 .new-prod-card-container {
     width: 415px !important;
 }
+
+
+/*------------------------------------------------- Help container carousel-------------------------------- */
+.help-card-container{width: 490px !important;}
+.help-card{
+    width: 455px;
+    height: 29.41176rem;
+    border-radius: 5%;
+    padding: 3rem 1.5rem;
+}
+.help-card-1{
+    background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-specialist-help-202305?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1684946879038) no-repeat;
+    background-size: cover;
+}
+.help-card-2{
+    background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-50-personal-session-202109?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1630612234000) no-repeat;
+    background-size: cover;
+}
+.help-card-3{
+    background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-support-app-202308_GEO_IN?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1691156993472) no-repeat;
+    background-size: cover;
+}
+/*------------------------------------------------- Help container carousel ends-------------------------------- */
