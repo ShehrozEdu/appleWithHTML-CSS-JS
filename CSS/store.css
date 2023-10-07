@@ -1,91 +1,127 @@
-p{
-    margin: 0 !important;
-    padding: 0  !important;
+p {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.common-section{
-    background-color: #f5f5f7;
+.common-section {
+  background-color: #f5f5f7;
 }
 
-
-.img-products-store{
-    max-height: 78px;
-    width: auto;
-
+.img-products-store {
+  max-height: 78px;
+  width: auto;
 }
 
-.mar-produc-container{
-    margin-left: 10rem;
-    width: 100%;
+.mar-produc-container {
+  margin-left: 10rem;
+  width: 100%;
 }
 
-.new-prod-card{
-    width: 385px;
-    height: 29.41176rem;
-    border-radius: 5%;
-    padding: 3rem 1.5rem;
+.new-prod-card {
+  width: 385px;
+  height: 29.41176rem;
+  border-radius: 5%;
+  padding: 3rem 1.5rem;
 }
-.card-1{
-    background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844) no-repeat;
-    background-size: cover;
+.card-1 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844)
+    no-repeat;
+  background-size: cover;
 }
-.card-2{
-    background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692719973220) no-repeat;
-    background-size: cover;
+.card-2 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692719973220)
+    no-repeat;
+  background-size: cover;
 }
-.card-3{
-    background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-s9-202309_GEO_IN?wid=800&hei=1000&fmt=jpeg&qlt=95&.v=1693501324197) no-repeat;
-    background-size: cover;
+.card-3 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-s9-202309_GEO_IN?wid=800&hei=1000&fmt=jpeg&qlt=95&.v=1693501324197)
+    no-repeat;
+  background-size: cover;
 }
-.card-4{
-      background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-ultra-202309_GEO_IN?wid=800&hei=1000&fmt=jpeg&qlt=95&.v=1693861933617) no-repeat;
-    background-size: cover;
+.card-4 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-ultra-202309_GEO_IN?wid=800&hei=1000&fmt=jpeg&qlt=95&.v=1693861933617)
+    no-repeat;
+  background-size: cover;
 }
-.card-5{
-      background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watchbands-202309?wid=800&hei=1000&fmt=jpeg&qlt=95&.v=1692720583186) no-repeat;
-    background-size: cover;
+.card-5 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watchbands-202309?wid=800&hei=1000&fmt=jpeg&qlt=95&.v=1692720583186)
+    no-repeat;
+  background-size: cover;
 }
-.card-6{
-      background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-airpods-pro-202209?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1661016986712) no-repeat;
-    background-size: cover;
+.card-6 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-airpods-pro-202209?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1661016986712)
+    no-repeat;
+  background-size: cover;
 }
-.card-7{
-      background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-bts-202306_GEO_IN?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=168548860342) no-repeat;
-    background-size: cover;
+.card-7 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-bts-202306_GEO_IN?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=168548860342)
+    no-repeat;
+  background-size: cover;
 }
-.card-8{
-      background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-air-202306?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1683844828182) no-repeat;
-    background-size: cover;
+.card-8 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-air-202306?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1683844828182)
+    no-repeat;
+  background-size: cover;
 }
-.card-9{
-      background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-air-202203?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1645636337374) no-repeat;
-    background-size: cover;
+.card-9 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-air-202203?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1645636337374)
+    no-repeat;
+  background-size: cover;
 }
-.card-10{
-      background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-veteran-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692805927436) no-repeat;
-    background-size: cover;
+.card-10 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-veteran-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692805927436)
+    no-repeat;
+  background-size: cover;
 }
-.carousel-new-prod{
-    width: 74% !important;
-    margin-left: 25rem;
+.carousel-new-prod {
+  width: 74% !important;
+  margin-left: 23rem;
 }
-.mar-25{
-    margin-left: 25rem !important;
+.mar-25 {
+  margin-left: 23rem !important;
 }
-.slick-arrow{
-    color: transparent !important;
+.slick-arrow {
+  color: transparent !important;
 }
 .slick-prev {
-    left: -70px !important;
+  left: -70px !important;
 }
 .slick-next {
-    right: -30px !important;
+  right: -30px !important;
 }
-.slick-next:before, .slick-prev:before {
-    
+.slick-next:before,
+.slick-prev:before {
   color: #000 !important;
   font-size: 4rem !important;
 }
-.new-prod-card-container {
+/* .new-prod-card-container {
     width: 415px !important;
+} */
+
+/*------------------------------------------------- Help container carousel-------------------------------- */
+/* .help-card-container {
+  width: 490px !important;
+} */
+.help-card {
+  width: 385px;
+  height: 29.41176rem;
+  border-radius: 5%;
+  padding: 3rem 1.5rem;
 }
+.help-card-1 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-specialist-help-202305?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1684946879038)
+    no-repeat;
+  background-size: cover;
+}
+.help-card-2 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-50-personal-session-202109?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1630612234000)
+    no-repeat;
+  background-size: cover;
+}
+.help-card-3 {
+  background: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-support-app-202308_GEO_IN?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1691156993472)
+    no-repeat;
+  background-size: cover;
+}
+/*------------------------------------------------- Help container carousel ends-------------------------------- */
+
