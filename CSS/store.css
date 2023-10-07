@@ -75,10 +75,10 @@ p {
 }
 .carousel-new-prod {
   width: 74% !important;
-  margin-left: 25rem;
+  margin-left: 23rem;
 }
 .mar-25 {
-  margin-left: 25rem !important;
+  margin-left: 23rem !important;
 }
 .slick-arrow {
   color: transparent !important;
@@ -99,9 +99,9 @@ p {
 } */
 
 /*------------------------------------------------- Help container carousel-------------------------------- */
-.help-card-container {
+/* .help-card-container {
   width: 490px !important;
-}
+} */
 .help-card {
   width: 385px;
   height: 29.41176rem;
@@ -124,3 +124,4 @@ p {
   background-size: cover;
 }
 /*------------------------------------------------- Help container carousel ends-------------------------------- */
+
