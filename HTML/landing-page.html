@@ -1,146 +1,589 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple(India)</title>
     <link rel="stylesheet" href="../CSS/landing-page.css" />
     <!-- -----BOOTSTRAP------ -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <!-- -----BOOTSTRAP ENDS------ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-</head>
-<!-- //dark--black,
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Slick CSS and JS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+  </head>
+  <!-- //dark--black,
     secondary--greyish black,
      primary->blue,
       danger-red,
       warning-yellow,
       white -->
-<!-- text(text-danger), backgound(bg-primary, bg-sc/),border(border border-primary/sec/dark).-->
+  <!-- text(text-danger), backgound(bg-primary, bg-sc/),border(border border-primary/sec/dark).-->
 
-<body class="m-0 p-0 ">
+  <body class="m-0 p-0">
     <nav class="bg-custom-color">
-        <div class="nav-container d-flex justify-content-center bg-nav align-items-center p-2">
-            <ul class="list-unstyled d-flex justify-content-evenly w-75 align-items-center">
-                <li><i class="fa-brands fa-apple text-white"></i></li>
-                <li class="text-white navbar-font pointer-cursor">Mobile</li>
-                <li class="text-white navbar-font pointer-cursor">Tab</li>
-                <li class="text-white navbar-font pointer-cursor">Headphones</li>
-                <li class="text-white navbar-font pointer-cursor">Watch</li>
-                <li class="text-white navbar-font pointer-cursor">etc</li>
-                <li class="text-white navbar-font pointer-cursor">Mac</li>
-                <li class="text-white navbar-font pointer-cursor">Mobile</li>
-                <li class="text-white navbar-font pointer-cursor">Tab</li>
-                <li class="text-white navbar-font pointer-cursor">Headphones</li>
-                <li class="text-white navbar-font pointer-cursor">
-                    <i class="fa-solid fa-magnifying-glass fs-6"></i>
-                </li>
-                <li class="text-white navbar-font pointer-cursor">
-                    <i class="fa-solid fa-cart-shopping fs-6"></i>
-                </li>
-            </ul>
-        </div>
+      <div
+        class="nav-container d-flex justify-content-center bg-nav align-items-center p-2"
+      >
+        <ul
+          class="list-unstyled d-flex justify-content-evenly w-75 align-items-center"
+        >
+          <li><i class="fa-brands fa-apple text-white"></i></li>
+          <li class="text-white navbar-font pointer-cursor">Mobile</li>
+          <li class="text-white navbar-font pointer-cursor">Tab</li>
+          <li class="text-white navbar-font pointer-cursor">Headphones</li>
+          <li class="text-white navbar-font pointer-cursor">Watch</li>
+          <li class="text-white navbar-font pointer-cursor">etc</li>
+          <li class="text-white navbar-font pointer-cursor">Mac</li>
+          <li class="text-white navbar-font pointer-cursor">Mobile</li>
+          <li class="text-white navbar-font pointer-cursor">Tab</li>
+          <li class="text-white navbar-font pointer-cursor">Headphones</li>
+          <li class="text-white navbar-font pointer-cursor">
+            <i class="fa-solid fa-magnifying-glass fs-6"></i>
+          </li>
+          <li class="text-white navbar-font pointer-cursor">
+            <i class="fa-solid fa-cart-shopping fs-6"></i>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <section class="below-navbar-container d-flex flex-column bg-custom-color">
-        <div class="image-container d-flex justify-content-center align-items-center margin-img-container">
-            <img src="https://www.apple.com/v/home/takeover/i/images/overview/hero/hero__x15fcac9fw2q_xlarge_2x.jpg"
-                class="apple-img-main" alt="apple-img">
-        </div>
-        <div class="text-container d-flex flex-column justify-content-center align-items-center">
-            <h2 class="text-center fs-5 text-white">Introducing iPhone 15 Pro, iPhone 15, <br> Apple Watch Series 9,
-                Apple Watch Ultra 2 and a major step towards making all our products <br> carbon neutral by 2030.</h2>
-            <button class="btn border rounded-pill border-white text-white fw-bold my-2 p-3">Watch the event</button>
-        </div>
+      <div
+        class="image-container d-flex justify-content-center align-items-center margin-img-container"
+      >
+        <img
+          src="https://www.apple.com/v/home/takeover/i/images/overview/hero/hero__x15fcac9fw2q_xlarge_2x.jpg"
+          class="apple-img-main"
+          alt="apple-img"
+        />
+      </div>
+      <div
+        class="text-container d-flex flex-column justify-content-center align-items-center"
+      >
+        <h2 class="text-center fs-5 text-white">
+          Introducing iPhone 15 Pro, iPhone 15, <br />
+          Apple Watch Series 9, Apple Watch Ultra 2 and a major step towards
+          making all our products <br />
+          carbon neutral by 2030.
+        </h2>
+        <button
+          class="btn border rounded-pill border-white text-white fw-bold my-2 p-3"
+        >
+          Watch the event
+        </button>
+      </div>
     </section>
 
     <!-- Section 2 starts -->
     <section id="section2" class="container-fluid m-0 p-0">
-        <h1 class="section2-heading1 p-1 pt-5 m-0 fw-bold">iPhone 15 Pro</h1>
-        <h3 class="section2-heading2 p-1 m-0">Titanium. So Strong. So light. So Pro</h3>
-        <h5 class="section2-heading3 p-1 m-0">Available starting 9.22</h5>
-        <ul class="section2-heading3 d-flex justify-content-center align-items-center">
-            <li class="p-1"><a href="#" class="text-decoration-none">
-                    <h5>Learn More &gt;</h5>
-                </a></li>
-            <li class="p-1"><a href="#" class="text-decoration-none">
-                    <h5>Pre-order &gt;</h5>
-                </a></li>
-        </ul>
+      <h1 class="section2-heading1 p-1 pt-5 m-0 fw-bold">iPhone 15 Pro</h1>
+      <h3 class="section2-heading2 p-1 m-0">
+        Titanium. So Strong. So light. So Pro
+      </h3>
+      <h5 class="section2-heading3 p-1 m-0">Available starting 9.22</h5>
+      <ul
+        class="section2-heading3 d-flex justify-content-center align-items-center"
+      >
+        <li class="p-1">
+          <a href="#" class="text-decoration-none">
+            <h5>Learn More &gt;</h5>
+          </a>
+        </li>
+        <li class="p-1">
+          <a href="#" class="text-decoration-none">
+            <h5>Pre-order &gt;</h5>
+          </a>
+        </li>
+      </ul>
     </section>
     <!-- Section 2 ends -->
 
     <!-- Section 3 starts -->
     <section id="section3" class="container-fluid m-0 p-0">
-        <div class="section-padding">
-            <h1 class="section3-heading1 p-1 m-0">iPhone 15 Pro</h1>
-            <h3 class="section3-heading2 p-1 m-0">New Camera. New Design. Newphoria</h3>
-            <h5 class="section3-heading3 p-1 m-0">Available starting 9.22</h5>
-            <ul class="section3-heading3 d-flex justify-content-center align-items-center">
-                <li class="p-1"><a href="#" class="text-decoration-none">
-                        <h5>Learn More &gt;</h5>
-                    </a></li>
-                <li class="p-1"><a href="#" class="text-decoration-none">
-                        <h5>Pre-order &gt;</h5>
-                    </a></li>
-            </ul>
-        </div>
+      <div class="section-padding">
+        <h1 class="section3-heading1 p-1 m-0">iPhone 15 Pro</h1>
+        <h3 class="section3-heading2 p-1 m-0">
+          New Camera. New Design. Newphoria
+        </h3>
+        <h5 class="section3-heading3 p-1 m-0">Available starting 9.22</h5>
+        <ul
+          class="section3-heading3 d-flex justify-content-center align-items-center"
+        >
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Learn More &gt;</h5>
+            </a>
+          </li>
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Pre-order &gt;</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
     <!-- Section 3 ends -->
 
     <!-- Section 4 starts -->
     <section id="section4" class="container-fluid m-0 p-0">
-        <div class="section-padding">
-            <h1 class="section4-heading1 p-1 m-0 text-white"><i class="fa-brands fa-apple text-white"></i>WATCH</h1>
-            <h5 class="section3-heading1 p-1 m-0 text-danger series-spacing-letter">SERIES 9</h5>
-            <h3 class="section3-heading2 p-1 m-0 text-white">Smarter. Brighter. Mighter.</h3>
-            <h5 class="section3-heading3 p-1 m-0">Available from 22 September</h5>
-            <ul class="section3-heading3 d-flex justify-content-center align-items-center">
-                <li class="p-1"><a href="#" class="text-decoration-none">
-                        <h5>Learn More &gt;</h5>
-                    </a></li>
-                <li class="p-1"><a href="#" class="text-decoration-none">
-                        <h5>Order Now &gt;</h5>
-                    </a></li>
-            </ul>
-        </div>
+      <div class="section-padding">
+        <h1 class="section4-heading1 p-1 m-0 text-white">
+          <i class="fa-brands fa-apple text-white"></i>WATCH
+        </h1>
+        <h5 class="section3-heading1 p-1 m-0 text-danger series-spacing-letter">
+          SERIES 9
+        </h5>
+        <h3 class="section3-heading2 p-1 m-0 text-white">
+          Smarter. Brighter. Mighter.
+        </h3>
+        <h5 class="section3-heading3 p-1 m-0">Available from 22 September</h5>
+        <ul
+          class="section3-heading3 d-flex justify-content-center align-items-center"
+        >
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Learn More &gt;</h5>
+            </a>
+          </li>
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Order Now &gt;</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
-    <!-- Section 3 ends -->
+    <!-- Section 4 ends -->
 
+    <!-- GRID Starts -->
+    <div class="section5-grid">
+      <!-- Grid element 1 starts-->
 
+      <div id="grid-element1" class="grid-element1">
+        <h3><i class="fa-brands fa-apple"></i>WATCH</h3>
+        <h5>ULTRA 2</h5>
+        <h5>Next level adventure.</h5>
+        <h5 class="grid-element1-heading3 p-1 m-0">Available from 9.22</h5>
+        <ul
+          class="grid-element1-heading3 d-flex justify-content-center align-items-center"
+        >
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Learn More &gt;</h5>
+            </a>
+          </li>
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Order Now &gt;</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
 
+      <!-- Grid element 1 ends -->
 
+      <!-- Grid element 2 starts-->
 
+      <div id="grid-element2" class="grid-element2">
+        <h3><i class="fa-brands fa-apple"></i>Carbon Neutral</h3>
+        <h5>A first for Apple Watch.</h5>
+        <h5>And Apple.</h5>
 
+        <ul
+          class="grid-element2-heading3 d-flex justify-content-center align-items-center"
+        >
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Learn More &gt;</h5>
+            </a>
+          </li>
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Watch a film.</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
 
+      <!-- Grid element 2 ends -->
 
+      <!-- Grid element 3 starts-->
 
+      <div id="grid-element3" class="grid-element3">
+        <h3><i class="fa-brands fa-apple"></i>WATCH</h3>
+        <h5>SE</h5>
+        <h5>A great to love.</h5>
+        <h5 class="grid-element3-heading3 p-1 m-0">Available from 9.22</h5>
+        <ul
+          class="grid-element3-heading3 d-flex justify-content-center align-items-center"
+        >
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Learn More &gt;</h5>
+            </a>
+          </li>
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Watch a film.</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
 
+      <!-- Grid element 3 ends -->
 
+      <!-- Grid element 4 starts-->
 
+      <div id="grid-element4" class="grid-element4">
+        <h1>Save on Mac or iPad</h1>
+        <h1>for college.</h1>
+        <h3>Plus get a giftcard upto $150.</h3>
+        <h5 class="grid-element4-heading3 p-1 m-0">Available from 9.22</h5>
+        <ul
+          class="grid-element4-heading3 d-flex justify-content-center align-items-center"
+        >
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Shop now &gt;</h5>
+            </a>
+          </li>
+        </ul>
+        <div class="grid-element4-video">
+          <video
+            id="bts-2023"
+            muted=""
+            loop=""
+            playsinline=""
+            data-inline-media=""
+            data-inline-media-pause-on-exit=""
+            data-inline-media-basepath="/105/media/us/home/2023/7f9f4504-ae23-4873-b01a-8f803990d57f/anim/bts-promo/"
+            aria-hidden="true"
+            src="/105/media/us/home/2023/7f9f4504-ae23-4873-b01a-8f803990d57f/anim/bts-promo/large_2x.mp4"
+          ></video>
+        </div>
+      </div>
 
+      <!-- Grid element 4 ends -->
 
+      <!-- Grid element 5 starts-->
 
+      <div id="grid-element5" class="grid-element5">
+        <h3>Start streaming Season3 now.</h3>
+      </div>
 
+      <!-- Grid element 5 ends -->
 
+      <!-- GRID element 6 starts -->
 
+      <div id="grid-element6" class="grid-element6">
+        <h3>Give upto 3% Cash back.</h3>
+        <h3>with every purchase.</h3>
+        <ul
+          class="grid-element6-heading3 d-flex justify-content-center align-items-center"
+        >
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Shop now &gt;</h5>
+            </a>
+          </li>
+          <li class="p-1">
+            <a href="#" class="text-decoration-none">
+              <h5>Apply now &gt;</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
 
+      <!-- GRID element 6 ends -->
+    </div>
+    <!-- GRID Ends -->
+    <!-- -----------------------------------Carousel Starts------------------------------- -->
+    <section class="position-relative">
+        <div class="landing-carousel">
+          
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/44dJzkosAhD0-ugRepvsfw/2500x1406.jpg" alt="">
+          
+          
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/44dJzkosAhD0-ugRepvsfw/2500x1406.jpg" alt="">
+          
+          
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/44dJzkosAhD0-ugRepvsfw/2500x1406.jpg" alt="">
+          
+          
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/44dJzkosAhD0-ugRepvsfw/2500x1406.jpg" alt="">
+          
+        </div>
+      </section>
+      
+    <!-- -----------------------------------Carousel Starts Ends------------------------------- -->
 
+    <!-------------------------------------------------- Footer starts ----------------------------------------->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-para" id="footer-para1">
+          1. Qualified Purchasers receive an Apple Gift Card when they purchase
+          an eligible Mac or iPad at a Qualifying Location. Only one Promotion
+          Product per eligible Mac or eligible iPad per Qualified Purchaser.
+          Offer subject to availability. While supplies last. View full terms
+          and conditions of offer
+          <a href="#">here</a>.
+        </div>
+        <div class="footer-para" id="footer-para2">
+          2. Trade-in values will vary based on the condition, year, and
+          configuration of your eligible trade-in device. Not all devices are
+          eligible for credit. You must be at least 18 years old to be eligible
+          to trade in for credit or for an Apple Gift Card. Trade-in value may
+          be applied toward qualifying new device purchase, or added to an Apple
+          Gift Card. Actual value awarded is based on receipt of a qualifying
+          device matching the description provided when estimate was made. Sales
+          tax may be assessed on full value of a new device purchase. In-store
+          trade-in requires presentation of a valid photo ID (local law may
+          require saving this information). Offer may not be available in all
+          stores, and may vary between in-store and online trade-in. Some stores
+          may have additional requirements. Apple or its trade-in partners
+          reserve the right to refuse or limit quantity of any trade-in
+          transaction for any reason. More details are available from Apple’s
+          trade-in partner for trade-in and recycling of eligible devices.
+          Restrictions and limitations may apply.
+        </div>
+        <div class="footer-para" id="footer-para3">
+          To access and use all Apple Card features and products available only
+          to Apple Card users, you must add Apple Card to Wallet on an iPhone or
+          iPad that supports and has the latest version of iOS or iPadOS. Apple
+          Card is subject to credit approval, available only for qualifying
+          applicants in the United States, and issued by Goldman Sachs Bank USA,
+          Salt Lake City Branch.
+        </div>
+        <div class="footer-para" id="footer-para4">
+          If you reside in the U.S. territories, please call Goldman Sachs at
+          877-255-5923 with questions about Apple Card.
+        </div>
+        <div class="footer-para" id="footer-para5">
+          Learn more about how Apple Card applications are evaluated at
+          <a href="#">support.apple.com/kb/HT209218</a>.
+        </div>
+        <div class="footer-para" id="footer-para6">
+          A subscription is required for Apple TV+.
+        </div>
 
+        <hr />
+
+        <!-------------------- footer lists starts--------------- -->
+
+        <div class="footer-bottom-list">
+          <div class="footer-list-flex" id="footer-list-flex1">
+            <div class="footer-list" id="footer-list1">
+              <ul>
+                <li class="list-heading">Shop and Learn</li>
+                <li>Store</li>
+                <li>Mac</li>
+                <li>iPad</li>
+                <li>iPhone</li>
+                <li>Watch</li>
+                <li>Vision</li>
+                <li>AirPods</li>
+                <li>TV & Home</li>
+                <li>AirTag</li>
+                <li>Accessories</li>
+                <li>Gift Cards</li>
+              </ul>
+            </div>
+            <div class="footer-list" id="footer-list2">
+              <ul>
+                <li class="list-heading">Apple Wallet</li>
+                <li>Wallet</li>
+                <li>Apple Card</li>
+                <li>Apple Pay</li>
+                <li>Apple Cash</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-list-flex" id="footer-list-flex2">
+            <div class="footer-list" id="footer-list3">
+              <ul>
+                <li class="list-heading">Account</li>
+                <li>Manage Your Apple ID</li>
+                <li>Apple Store Account</li>
+                <li>icloud.com</li>
+              </ul>
+            </div>
+            <div class="footer-list" id="footer-list4">
+              <ul>
+                <li class="list-heading">Entertainment</li>
+                <li>Apple One</li>
+                <li>Apple TV+</li>
+                <li>Apple Music</li>
+                <li>Apple Arcade</li>
+                <li>Apple Fitness+</li>
+                <li>Apple News+</li>
+                <li>Apple Podcasts</li>
+                <li>Apple Books</li>
+                <li>Apple Store</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-list-flex" id="footer-list-flex3">
+            <div class="footer-list" id="footer-list5">
+              <ul>
+                <li class="list-heading">Apple Store</li>
+                <li>Find a store</li>
+                <li>Genius Bar</li>
+                <li>Today at Apple</li>
+                <li>Apple Camp</li>
+                <li>Apple Store App</li>
+                <li>Certified Refurbished</li>
+                <li>Apple Trade in</li>
+                <li>Financing</li>
+                <li>Carrier Deals at Apple</li>
+                <li>Order Status</li>
+                <li>Shopping Help</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-list-flex" id="footer-list-flex4">
+            <div class="footer-list" id="footer-list6">
+              <ul>
+                <li class="list-heading">For Business</li>
+                <li>Apple and Business</li>
+                <li>Shop for Business</li>
+              </ul>
+            </div>
+            <div class="footer-list" id="footer-list7">
+              <ul>
+                <li class="list-heading">For Education</li>
+                <li>Apple and Education</li>
+                <li>Shop for K-12</li>
+                <li>Shop for College</li>
+              </ul>
+            </div>
+            <div class="footer-list" id="footer-list8">
+              <ul>
+                <li class="list-heading">For Healthcare</li>
+                <li>Apple in Healthcare</li>
+                <li>Health on Apple Watch</li>
+                <li>Health Records on iPhone</li>
+              </ul>
+            </div>
+            <div class="footer-list" id="footer-list9">
+              <ul>
+                <li class="list-heading">For Government</li>
+                <li>Shop for Government</li>
+                <li>Shop for Veterans and Military</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-list-flex" id="footer-list-flex5">
+            <div class="footer-list" id="footer-list10">
+              <ul>
+                <li class="list-heading">Apple Values</li>
+                <li>Accessibility</li>
+                <li>Education</li>
+                <li>Environment</li>
+                <li>Inclusion and Diversity</li>
+                <li>Privacy</li>
+                <li>Racial Equity and Justice</li>
+                <li>Supplier Responsibility</li>
+              </ul>
+            </div>
+            <div class="footer-list" id="footer-list11">
+              <ul>
+                <li class="list-heading">About Apple</li>
+                <li>Newsroom</li>
+                <li>Apple Leadership</li>
+                <li>Career Opportunities</li>
+                <li>Investors</li>
+                <li>Ethics & Compliance</li>
+                <li>Events</li>
+                <li>Contact Apple</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact">
+          More ways to shop: <a href="#">Find an Apple Store</a> or
+          <a href="#">other retailer</a>near you. Or call 1-800-MY-APPLE.
+        </div>
+
+        <div class="footer-end">
+          <div class="footer-end1">
+            Copyright © 2023 Apple Inc. All rights reserved.
+          </div>
+          <div class="footer-end1">
+            Copyright © 2023 Apple Inc. All rights reserved.
+          </div>
+          <div class="footer-end1">
+            Copyright © 2023 Apple Inc. All rights reserved.
+          </div>
+          <div class="footer-end1">
+            Copyright © 2023 Apple Inc. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Ends -->
 
     <!-- -----BOOTSTRAP------ -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <!-- -----BOOTSTRAP------ -->
 
-    <!-- -----BOOTSTRAP ENDS------ -->
-    <script src="../JS/common.js"></script>
-</body>
+  <!-- -----BOOTSTRAP------ -->
 
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"
+></script>
+
+<!-- -----BOOTSTRAP ENDS------ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+   <script>$(document).ready(function () {
+    $(".landing-carousel").slick({
+      slidesToShow: 1, // Number of slides to show at once
+      slidesToScroll: 1, // Number of slides to scroll at a time
+      autoplay: false, // Enable auto-play
+      autoplaySpeed: 2000, // Set auto-play speed in milliseconds
+      arrows: false, // Show navigation arrows
+      dots: true, // Hide navigation dots
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    });
+  });</script>
+  </body>
 </html>
 
 <!-- git add filename

@@ -6,7 +6,7 @@
 /* SF-Pro-Text-Medium */
 
 * {
-  font-family:  "-apple-system", "BlinkMacSystemFont" sans-serif;
+  font-family: "-apple-system", "BlinkMacSystemFont" sans-serif;
 }
 .navbar-font {
   font-size: 12px !important;
@@ -150,3 +150,264 @@
   letter-spacing: 4px;
 }
 /* Section 4 ends */
+
+/* GRID Starts*/
+
+/* GRID Element 1 starts */
+
+#grid-element1 {
+  /* background-color: black; */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background: url("https://www.apple.com/v/home/be/images/promos/apple-watch-ultra-2/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg")
+    no-repeat;
+  background-size: 180%;
+  height: 90vh;
+  background-position: center;
+}
+.grid-element1-heading3 {
+  text-decoration: none;
+  list-style: none;
+}
+.grid-element1-heading1 {
+  text-decoration: none;
+  list-style: none;
+  font-size: 3em !important;
+}
+.grid-element1-heading1 i {
+  font-size: 1em;
+}
+
+.grid-element1 ul {
+  text-align: center;
+}
+.series-spacing-letter {
+  letter-spacing: 4px;
+}
+
+/* GRID Element 1 ends */
+
+/* GRID Element 2 starts */
+
+#grid-element2 {
+  /* background-color: black; */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background: url("https://www.apple.com/v/home/be/images/promos/apple-watch-carbon-neutral/promo_carbon_neutral__fmzt9ypcw9e2_large.jpg")
+    no-repeat;
+  background-size: 180%;
+  height: 90vh;
+  background-position: center;
+}
+.grid-element2-heading3 {
+  text-decoration: none;
+  list-style: none;
+}
+.grid-element2-heading1 {
+  text-decoration: none;
+  list-style: none;
+  font-size: 3em !important;
+}
+.grid-element2-heading1 i {
+  font-size: 1em;
+}
+
+.grid-element2 ul {
+  text-align: center;
+}
+.series-spacing-letter {
+  letter-spacing: 4px;
+}
+
+/* GRID Element 2 ends */
+
+/* GRID Element 3 starts */
+
+#grid-element3 {
+  /* background-color: black; */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background: url("https://www.apple.com/v/home/be/images/promos/apple-watch-se/promo_apple_watch_se_order__j70okzn28uye_large.jpg")
+    no-repeat;
+  background-size: 180%;
+  height: 90vh;
+  background-position: center;
+}
+.grid-element3-heading3 {
+  text-decoration: none;
+  list-style: none;
+}
+.grid-element3-heading1 {
+  text-decoration: none;
+  list-style: none;
+  font-size: 3em !important;
+}
+.grid-element3-heading1 i {
+  font-size: 1em;
+}
+
+.grid-element3 ul {
+  text-align: center;
+}
+.series-spacing-letter {
+  letter-spacing: 4px;
+}
+
+/* GRID Element 3 ends */
+
+/* GRID Element 4 starts */
+
+#grid-element4 {
+  /* background-color: black; */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  /* background: url("https://www.apple.com/v/home/be/images/promos/apple-watch-se/promo_apple_watch_se_order__j70okzn28uye_large.jpg")
+    no-repeat;
+  background-size: 180%; */
+  height: 90vh;
+  /* background-position: center; */
+}
+.grid-element4-heading3 {
+  text-decoration: none;
+  list-style: none;
+}
+.grid-element4-heading1 {
+  text-decoration: none;
+  list-style: none;
+  font-size: 3em !important;
+}
+.grid-element4-heading1 i {
+  font-size: 1em;
+}
+
+.grid-element4 ul {
+  text-align: center;
+}
+.series-spacing-letter {
+  letter-spacing: 4px;
+}
+
+/* GRID Element 4 ends */
+
+/* Grid element 5 starts */
+
+#grid-element5 {
+  /* background-color: black; */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background: url("https://www.apple.com/v/home/be/images/promos/tv-plus-the-morning-show/promo_tms3__e87yvoyg4oqe_large.jpg")
+    no-repeat;
+  background-size: 180%;
+  height: 90vh;
+  background-position: center;
+}
+
+#grid-element5 h3 {
+  padding: 10px;
+}
+
+/* Grid element 5 ENDS */
+
+/* GRID elemnt 6 starts */
+
+#grid-element6 {
+  /* background-color: black; */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background: url("https://www.apple.com/v/home/be/images/promos/apple-watch-se/promo_apple_watch_se_order__j70okzn28uye_large.jpg")
+    no-repeat;
+  background-size: 180%;
+  height: 90vh;
+  background-position: center;
+}
+.grid-element6-heading3 {
+  text-decoration: none;
+  list-style: none;
+}
+.grid-element6-heading1 {
+  text-decoration: none;
+  list-style: none;
+  font-size: 3em !important;
+}
+.grid-element6-heading1 i {
+  font-size: 1em;
+}
+
+.grid-element6 ul {
+  text-align: center;
+}
+.series-spacing-letter {
+  letter-spacing: 4px;
+}
+
+/* GRID elemnt 6 ends */
+
+/* Styling grid */
+
+.section5-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 50%); /* Two columns in each row */
+  grid-gap: 10px; /* Adjust the gap between divs as needed */
+  margin: 10px;
+}
+/* GRID ENDS */
+
+/* Footer starts */
+
+.footer {
+  background-color: #f5f5f7;
+}
+
+.footer-content {
+  padding: 15px;
+  width: 70%;
+  margin: auto;
+}
+
+.footer-para {
+  margin-bottom: 10px;
+  font-size: small;
+  color: #79797e;
+}
+
+.footer-para a {
+  color: #79797e;
+}
+
+/* footer list */
+
+.footer-list li {
+  font-size: small;
+  list-style: none;
+  padding: 3px;
+  padding-left: 0;
+}
+
+.footer-list .list-heading {
+  font-weight: bold;
+  color: rgb(48, 45, 45);
+}
+
+.footer-bottom-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #838385;
+}
+
+ol,
+ul {
+  padding-left: 0 !important;
+}
+
+#contact {
+  font-size: small;
+  color: #79797e;
+}
+/* footer ends */
